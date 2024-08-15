@@ -6,7 +6,7 @@ from .yasg import urlpatterns as url_doc
 
 
 urlpatterns=[
-    path('api/', include(urlpatterns)),
+    path('',include(urlpatterns)),
 ]
 
 urlpatterns+=url_doc
